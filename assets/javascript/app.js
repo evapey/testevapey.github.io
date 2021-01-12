@@ -10,7 +10,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['developer', 'student', 'gamer', '18', 'zonix admin', 'eva#2957'];
+  brandDescription = ['developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957', 'developer', 'student', '18', 'united kingdom', 'eva#2957',];
 
   titleChanger = (text, delay) => {
     if (!text) return;
