@@ -1,7 +1,7 @@
 /*
 
 Credits:
-    - Lummit - https://evapey.club/ | https://github.com/evapey/ | Discord: eva#2957
+    - James - https://evapey.wtf/ | https://github.com/evapey/ | Discord: eva#2957
     - Trollface image (http://www.rw-designer.com/icon-image/7835-256x256x32.png)
     - Tumblr images/icons:
         a) https://68.media.tumblr.com/730ba51e7f6b0203e023deeb0db8367b/tumblr_osgbbiLXWV1suieauo1_500.jpg
@@ -48,7 +48,7 @@ $(document).ready(() => {
     },
     {
       name: 'Discord Bot',
-      link: 'https://002.evapey.club/',
+      link: 'https://002.evapey.wtf/',
     },
     {
       name: 'Youtube',
@@ -72,7 +72,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['evapey.club', '@igntohkyo', 'evapey', 'evapey.club', '@igntohkyo', 'evapey', 'evapey.club', '@igntohkyo']);
+  app.titleChanger(['evapey.wtf', '@igntohkyo', 'evapey', 'evapey.wtf', '@igntohkyo', 'evapey', 'evapey.wtf', '@igntohkyo']);
   app.iconChanger(['assets/icons/roses/rose1.jpg', 'assets/icons/roses/rose2.jpg', 'assets/icons/roses/rose3.jpg', 'assets/icons/roses/rose4.jpg', 'assets/icons/roses/rose5.jpg', 'assets/icons/roses/rose6.jpg', 'assets/icons/roses/rose7.jpg', 'assets/icons/roses/rose8.jpg', 'assets/icons/roses/rose1.jpg']);
 });
 
@@ -107,7 +107,7 @@ $('html').on('contextmenu', (event) => {
   img.src = 'assets/others/trollface.jpg';
   img.width = 64;
   img.height = 64;
-  img.alt = 'evapey.club';
+  img.alt = 'evapey.wtf';
   img.style = `position: absolute; left: ${event.pageX}px; top: ${event.pageY}px; z-index: 10`;
   img.className = `troll ${trollfaceLight}`;
 
@@ -149,7 +149,7 @@ const writeLine = (text, speed, timeout, callback) => {
 };
 
 $.getJSON(ipgeolocation, (data) => {
-  writeLine(['Authenticating...', "Granting access to <span style='font-size: 14px; color: #06d;'>[evapey.club]</span>..."], 30, () => {
+  writeLine(['Authenticating...', "Granting access to <span style='font-size: 14px; color: #06d;'>[evapey.wtf]</span>..."], 30, () => {
     if (app.skippedIntro) return;
 
     clearCursor();
@@ -164,7 +164,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #ad24f6'>evapey.club $$$</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #ad24f6'>evapey.wtf $$$</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;

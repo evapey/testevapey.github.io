@@ -1,4 +1,4 @@
-// Made by James - https://evapey.club/ | https://github.com/evapey/ | Discord: eva#2957
+// Made by James - https://evapey.wtf/ | https://github.com/evapey/ | Discord: eva#2957
 
 class _app {
   id = 0;
